@@ -1,0 +1,69 @@
+/* input {
+  
+  margin: 10px;
+} */
+
+.btn {
+  background-color: #87C872;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 15px;
+  color: whitesmoke;
+
+}
+
+.choose {
+  margin-left: 15px;
+  border: none;
+  color: grey;
+}
+
+.btn:hover {
+background-color: #5b824c;
+color: #eef9e2;
+transition: 0.5s;
+font-weight: bold;
+}
+
+.link {
+  color:#87C872
+}
+
+.box {
+  background-color: white;
+  padding: 5%;
+  margin: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media (max-width: 768px) {
+
+  .box {
+  background-color: white;
+  padding: 40px;
+  margin: 35px 0px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+}
+
+@media (max-width: 576px) {
+
+  .box {
+    background-color: white;
+    padding: 40px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+}
+
+
