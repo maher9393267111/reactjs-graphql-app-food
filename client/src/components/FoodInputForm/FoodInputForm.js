@@ -62,7 +62,7 @@ export default function FoodInputForm() {
     const formData = new FormData();
     formData.set('file', file);
 
-    const CLOUDINARY_URL = 'https://api.cloudinary.com/v1_1/dqw6fjffy/image/upload';
+    const CLOUDINARY_URL = '';
     const CLOUDINARY_UPLOAD_PRESET = 'ml_default';
     const image = document.querySelector('#fileInput');
 
